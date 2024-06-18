@@ -1,0 +1,509 @@
+body{
+  margin:0;
+  padding:0;
+}
+.home h1{
+  font-size: 70px;
+}
+.mainHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px 0px 100px;
+  color:rgb(34, 101, 189);
+  position:sticky;
+  top:0;
+  background-color: white;
+  z-index: 1;
+}
+.mainHeader h2{
+  font-size: 30px;
+}
+.logoSection{
+  width:200px;
+}
+.logoSection img{
+  width:100%;
+  height:70px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  gap:50px;
+  text-decoration: none;
+}
+.navbar a{
+  text-decoration: none;
+  color: rgb(36, 94, 161);
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+.navbar .activeLink{
+  background-color: rgb(227, 239, 255);
+  border-radius: 20px;
+  padding: 0px 5px;
+  transition: all 0.5s ease;
+}
+.hamburger{
+  display: none;
+}
+.navbar2 a {
+  text-decoration: none;
+  color: rgb(36, 94, 161);
+  font-weight: bold;
+}
+
+.navbar2 .activeLink {
+  background-color: rgb(227, 239, 255);
+  border-radius: 20px;
+  padding: 0px 5px;
+  ;
+
+}
+.contactSection{
+  display: flex;
+  align-items: center;
+}
+.home{
+  width:80%;
+  margin: auto;
+}
+.sectionOne{
+  display:flex;
+  justify-content: space-around;
+  margin: auto;
+  padding:40px;
+}
+.homeLeft{
+  width:60%;
+  padding:20px;
+  animation: slideRight 1s ease 0s 1 normal forwards;
+}
+.homeRight{
+  width:40%;
+  padding:20px
+}
+.homeRight img{
+  aspect-ratio: 5/7;
+  width:350px;
+  margin: auto;
+  border-radius: 250px;
+  object-fit: cover;
+  object-position: 50% 55%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  animation: slideLeft 1s ease 0s 1 normal forwards;
+}
+.sectionTwo{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:100px;
+  justify-content: space-around;
+}
+.homeFeature{
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+  transition: all 0.5s;
+}
+.homeFeature:hover{
+  transform: scale(1.03);
+  transition: all 0.5s;
+}
+.titleAndImage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+ }
+ .titleAndImage img{
+  width: 70px;
+ }
+ .titleAndImage p{
+  font-weight:bold;
+  font-size: 23px;
+ }
+.sectionThree {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 40px;
+  background-color: ;
+}
+
+.sectionThreeRight {
+  width: 60%;
+  background-color: ;
+  padding: 20px;
+  animation: slideLeft 1s ease 0s 1 normal forwards;
+}
+
+
+.sectionThreeLeft{
+  width: 40%;
+  background-color: ;
+  padding: 20px
+}
+
+.sectionThreeLeft img {
+  aspect-ratio: 4/5;
+  width: 400px;
+  margin: auto;
+  border-radius: 250px 250px 0 0;
+  object-fit: cover;
+  object-position: 52% 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  animation: slideRight 1s ease 0s 1 normal forwards;
+}
+.feature2{
+display: flex;
+align-items: center;
+margin: 20px;
+}
+.feature2 img{
+  width: 40px;
+  margin-right: 10px;
+}
+.feature2 img:hover{
+  transform: scale(1.2);
+}
+.sectionFourTop{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 20px;
+  gap: 80px;
+  font-size: 27px;
+  margin-top: 50px;
+}
+.sectionFourBottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+  justify-content: space-around;
+  margin:60px 0 60px 0;
+}
+.homeFeature2 {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+  transition: all 0.5s;
+}
+
+.homeFeature2:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.homeFeature2 a{
+  font-weight: bold;
+  color: rgb(37, 89, 185);
+  text-decoration: underline;
+}
+.titleAndImage2 {
+  margin-bottom: 10px;
+}
+
+.titleAndImage2 img {
+  width: 70px;
+}
+
+.titleAndImage2 p {
+  font-weight: bold;
+  font-size: 23px;
+}
+.featureDescription2{
+  margin-bottom: 10px;
+}
+
+.sectionFive {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 40px;
+  background-color: ;
+}
+
+.sectionFiveLeft {
+  width: 60%;
+  background-color: ;
+  padding: 20px;
+  animation: slideRight 1s ease 0s 1 normal forwards;
+}
+
+
+.sectionFiveRight {
+  width: 40%;
+  background-color: ;
+  padding: 20px;
+  animation: slideLeft 1s ease 0s 1 normal forwards;
+}
+
+.sectionFiveRight img {
+  aspect-ratio: 4/5;
+  width: 400px;
+  margin: auto;
+  border-radius: 250px 250px 0 0;
+  object-fit: cover;
+  object-position: 55% 50%;
+  transform: scaleX(-1);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.sectionSix{
+  margin-top: 50px;
+  text-align: center;
+}
+.doctorsContainer{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin: auto;
+  padding: 40px;
+  gap:20px;
+  font-weight: bolder;
+  margin-top: 50px;
+}
+.doctor{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+.doctorsname{
+  font-size: 20px;
+}
+.AbountPageMain{
+animation: slideLeft 1s ease 0s 1 normal forwards;
+}
+.doctorOrNot {
+display: none;
+}
+
+@media only screen and (max-width: 769px) {
+  .mainHeader {
+      flex-direction: column;
+      align-items: center;
+      gap:10px;
+    }
+  .home h1{
+    font-size: 50px;
+  }
+  h{
+    font-size: medium;
+  }
+  .sectionTwo {
+      display: grid;
+      grid-template-columns: repeat(1, 0.5fr);
+      gap: 100px;
+      justify-content: space-around;
+    }
+  .sectionOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    padding: 40px;
+  }
+.homeLeft {
+  width: 100%;
+}
+
+.homeRight {
+  width: 100%;
+}
+.sectionThreeRight {
+  width: 100%;
+}
+.sectionThreeLeft {
+  width: 100%;
+}
+.sectionThree {
+  display: flex;
+  flex-direction: column;
+}
+.sectionFourBottom {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.sectionFive {
+  display: flex;
+  flex-direction: column;
+}
+.sectionFiveLeft {
+  width: 100%;
+}
+.sectionFiveRight {
+  width: 100%;
+}
+.doctorsContainer{
+  grid-template-columns: repeat(2,1fr);
+}
+}
+
+@media only screen and (max-width: 426px) {
+  .mainHeader {
+    flex-direction: row;
+    justify-content: space-between; 
+    gap:0px;
+    padding: 0;
+    align-items: center;
+    background-color: ;
+  }
+
+  .logoSection {
+    width: 200px;
+  }
+
+  .logoSection img {
+    width: 80%;
+    height: 60px;
+    background-color: ;
+  }
+  .navbar2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:10px;
+    padding: 30px;
+    margin: auto;
+    position: absolute;
+    right:5px;
+    background-color: rgb(249, 253, 255);
+    border-radius: 10px;
+    width: 40%;
+    height: 250px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    animation: slideLeft 1s ease 0s 1 normal forwards;
+  }
+  
+  .navbar{
+    padding: 0;
+    margin: 0;
+    display: none;
+    width: 0px;
+  }
+  .hamburger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactSection button{
+    display: none;
+  }
+  .contactUs{
+    display: none;
+  }
+  .home {
+      width: 95%;
+    }
+  .home h1 {
+      font-size: 40px;
+      width:100%;
+    }
+  .sectionTwo {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:20px;
+  }
+
+  .sectionOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    padding: 40px;
+  }
+
+  .homeLeft {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .homeRight {
+    width: 100%;
+  }
+
+  .sectionThreeRight {
+    width: 100%;
+  }
+
+  .sectionThreeLeft {
+    width: 100%;
+  }
+
+  .sectionThree {
+    display: flex;
+    flex-direction: column;
+  }
+    .sectionFourTop {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 20px;
+      font-size: 27px;
+    }
+
+  .sectionFourBottom {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap:20px;
+  }
+
+  .sectionFive {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sectionFiveLeft {
+    width: 100%;
+  }
+
+  .sectionFiveRight {
+    width: 100%;
+  }
+
+  .doctorsContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  *{
+    font-size: 15px;
+  }
+  .doctorOrNot{
+    padding: 0;
+      margin: 0;
+      display: none;
+      width: 0px
+  }
+  .doctorOrNot label{
+    padding:0;
+    margin:0;
+    display: none;
+    width:0px
+  }
+  .sectionOne {
+    padding:0px 10px 30px 10px;
+
+  }
+}
+
+
+
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
