@@ -2,7 +2,7 @@
 import doctorbg from '../Images/doctorbg.jpg';
 
 const About = () => {
-  const websiteCreatedBy = 'Aishwarya Belorkar';
+  const websiteCreatedBy = Aishwarya Belorkar;
   const socialMediaLinks = {
     twitter: 'https://twitter.com/your_twitter_handle',
     facebook: 'https://facebook.com/your_facebook_page',
