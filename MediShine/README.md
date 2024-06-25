@@ -9,7 +9,7 @@ MediShine.com is a user-friendly Medicare website that empowers patients to conv
 ### Deployed Link
 
 <div align="center">
-  <a href="https://medishine.vercel.app">Visit MediShine.com</a>
+  <a href="https://medshine-jrb4-5j8s6j83q-aishwaryas-projects-b263aed9.vercel.app">Visit MediShine.com</a>
 </div>
 
 ## Features
@@ -32,13 +32,6 @@ MediShine.com is a user-friendly Medicare website that empowers patients to conv
 - ChakraUI
 - RESTful API: To handle communication between frontend and backend.
 
-## Getting Started
-
-1. Clone the repository: `git clone https://github.com/mrsaurabhmaske/resolute-mountain-5021.git`
-2. Install dependencies: `cd resolute-mountain-5021 && npm install`
-3. Set up the MongoDB connection: Create a `.env` file with your MongoDB connection URI.
-4. Start the development server: `npm run start`
-
 ## Contributions
 
 Contributions to MediShine.com are welcome! If you have any ideas or improvements, feel free to submit a pull request.
@@ -54,10 +47,6 @@ For any inquiries or support, you can reach me at [belorkaraishwarya22@gmail.com
 |  HOMEPAGE - Doctor Toggle OFF |  HOMEPAGE - Doctor Toggle ON |
 |:-----------------------------:|:---------------------------:|
 | ![HOMEPAGE - Doctor Toggle OFF](https://github.com/mrsaurabhmaske/resolute-mountain-5021/assets/123891687/0858f1c1-3051-495e-9287-4f66378c1fd2) | ![HOMEPAGE - Doctor Toggle ON](https://github.com/mrsaurabhmaske/resolute-mountain-5021/assets/123891687/cc3fb3fc-3663-4f89-a265-650eea2897e0) |
-
-| Animated Components | ABOUT |
-|:-------------------:|:-----:|
-| ![Animated Components](https://github.com/mrsaurabhmaske/resolute-mountain-5021/assets/123891687/dc6c4891-147b-4596-a3bb-0d3ae87ea94e) | ![ABOUT](https://github.com/mrsaurabhmaske/resolute-mountain-5021/assets/123891687/85db0f67-ed6b-4b75-8755-54a004b6b1c2) |
 
 | SERVICES Page | SERVICES > DOCTORS |
 |:-------------:|:------------------:|
